@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SEB Session 1 qureySelector"
+title: "SEB Section 1 qureySelector"
 categories: [HTML/CSS]
 tag: [codestates, HTML/CSS]
 toc: true
