@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/im-sprint-twittler/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>twittler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./twittler_files/main.css">
+    <script src="./twittler_files/data.js"></script>
+  </head>
+  <body>
+    <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+    <div id="greeting">twittler</div>
+
+    <div id="tweetInputbox">
+      <p class="inputbox">Username</p>
+      <input type="text">
+      <p class="inputbox">Message</p>
+      <textarea name="message" id="" cols="100" rows="10"></textarea>
+      <br>
+      <button class="newButton">Tweet!</button>
+    </div>
+
+    <br>
+
+    <div id="tweetbox">
+      <div class="button-area">
+        <button class="button">
+          <img src="./twittler_files/3580294.png" width="15px" height="15px">check new tweet
+        </button>
+      </div>
+      <hr>
+      <ul id="tweetlist">
+        <li>
+          <div class="user_info"></div>
+          <div class="message_info"></div>
+          <div class="created_info"></div>
+        </li>
+        <hr>
+        <li>
+          <div id="user_info2"></div>
+          <div id="message_info2"></div>
+          <div id="created_info2"></div>
+        </li>
+        <hr>
+        <li>
+          <div id="user_info3"></div>
+          <div id="message_info3"></div>
+          <div id="created_info3"></div>
+        </li>
+        <hr>
+        <li>
+          <div id="user_info4"></div>
+          <div id="message_info4"></div>
+          <div id="created_info4"></div>
+        </li>
+        <hr>
+        <li>
+          <div id="user_info5"></div>
+          <div id="message_info5"></div>
+          <div id="created_info5"></div>
+        </li>
+        <hr>
+      </ul>
+    </div>
+
+    <script src="./twittler_files/script.js"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
