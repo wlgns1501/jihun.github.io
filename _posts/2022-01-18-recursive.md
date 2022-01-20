@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 2 Recursive"
-categories: [JS/Node]
-tag: [codestates, JS/Node]
+categories: [Algorithm]
+tag: [codestates, JS/Node, Algorithm]
 toc: true
 ---
 
