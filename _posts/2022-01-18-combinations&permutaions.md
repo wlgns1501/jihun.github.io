@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SEB Section 2 Combinations & Permutaions"
-categories: [JS/Node]
+categories: [Algorithm]
 tag: [codestates, Algorithm]
 toc: true
 ---
