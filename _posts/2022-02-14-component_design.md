@@ -51,3 +51,58 @@ CSS는 컴포넌트 기반의 방식으로 만들어진 적이 한 번도 없었
 대표적으로 Styled-Component가 있는데, 이는 기능적 혹은 상태를 가진 컴포넌트들로부터 UI를 완전히 분리해 사용할 수 있는 패턴을 제공한다.
 
 # Styled-CSS
+
+styled-CSS를 작성하는 방식은 JS에서 변수를 선언하듯이, 만들고자 하는 변수명을 만들고 tag의 속성을 정의한다. 백틱(``) 안에 기존 CSS 문법을 이용하여 스타일 속성을 정의해주면 된다.
+
+```js
+const Button = styled.a`
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  width: 11rem;
+`;
+```
+
+## Styled Component 특징
+
+- Automatic critical CSS
+
+화면에 어떤 컴포넌트가 렌더링 되었는지 추적해서 해당하는 컴포넌트에 대한 스타일을 자동으로 삽입한다.
+
+- No class name bugs
+
+스스로 유니크한 className을 생성한다. 중복이나 오타로 인한 버그를 줄여준다.
+
+- Easier deletion of CSS
+
+컴포넌트를 사용하지 않아 삭제할 경우 스타일 속성도 함께 삭제된다.
+
+- Simple dynamic styling
+
+props 나 전역 속성을 기반으로 컴포넌트에 스타일 속성을 부여하기 때문에 간단하고 직관적이다.
+
+- Painless maintenance
+
+컴포넌트에 스타일을 상속하는 속성을 찾아 다른 CSS 파일들을 검색하지 않아도 되기 때문에 코드가 커지더라도 유지 보수가 어렵지 않다.
+
+- Automatic vendor prefixing
+
+개별 컴포넌트마다 기존의 CSS를 이용하여 스타일 속성을 정의하면 된다.
+
+### 설치 방법
+
+```
+# with npm
+$ npm install --save styled-components
+
+# with yarn
+$ yarn add styled-components
+
+# package.json
+{
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
+```
