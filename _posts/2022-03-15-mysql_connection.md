@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SEB Section 3 Mysql"
-categories: [Node.js/Database]
+categories: [Database]
 tag: [codestates, Node/Database]
 toc: true
 ---

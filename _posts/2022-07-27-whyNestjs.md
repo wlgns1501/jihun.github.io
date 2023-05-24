@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Side-Project] 왜 Nest.js를 이용하는가?"
-categories: [JavaScript, Side-Project]
+categories: [nest.js, Side-Project]
 tag: [JavaScript, Side-Project]
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Side-Project] 아이디어 선정"
-categories: [JavaScript, Side-Project]
+categories: [nest.js, Side-Project]
 tag: [JavaScript, Side-Project]
 toc: true
 ---
