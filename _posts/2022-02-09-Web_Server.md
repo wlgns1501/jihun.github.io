@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SEB Section 2 Web Server"
-categories: [JS/Node.js]
+categories: [Js/Node]
 tag: [codestates, JS/Node]
 toc: true
 ---

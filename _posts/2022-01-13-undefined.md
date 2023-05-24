@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SEB Section 1 undefiend & null"
-categories: [JS / Node.js]
+categories: [Js/Node]
 tag: [codestates, JS, Node.js]
 toc: true
 ---
