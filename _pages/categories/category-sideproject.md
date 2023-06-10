@@ -1,10 +1,10 @@
 ---
-title: "Diary"
+title: "SideProject"
 layout: archive
-permalink: categories/diary
+permalink: categories/sideproject
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.diary %}
+{% assign posts = site.categories['sideproject'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
