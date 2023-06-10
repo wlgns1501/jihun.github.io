@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 2 React Data"
-categories: [React]
-tag: [codestates, React]
+categories: [codestates]
+tag: [React]
 toc: true
 ---
 
@@ -61,5 +61,5 @@ useEffect의 두 번째 인자는 배열이다. 이 배열은 조건을 가지�
 
 ### 단 한 번만 실행 되는 Effect 함수
 
-종속성 목록에 아무런 종속성이 없다면, 즉 빈 배열이 들어간다면 어떻게 될까? 
+종속성 목록에 아무런 종속성이 없다면, 즉 빈 배열이 들어간다면 어떻게 될까?
 이때는 **컴포넌트가 처음 생성될 때만** effect 함수가 실행된다. 외부 API를 통해 리소스를 받아오고, 더 이상 API호출이 필요하지 않을 때 사용할 수 있다.

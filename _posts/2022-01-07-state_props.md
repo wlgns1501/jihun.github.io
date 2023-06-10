@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 1 State & Props"
-categories: [React]
-tag: [codestates, React]
+categories: [codestates]
+tag: [React]
 toc: true
 ---
 

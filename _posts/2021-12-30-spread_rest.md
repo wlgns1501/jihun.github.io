@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 1 Spread/rest"
-categories: [JS/Node]
-tag: [codestates, JS/Node]
+categories: [codestates]
+tag: [JS/Node]
 toc: true
 ---
 

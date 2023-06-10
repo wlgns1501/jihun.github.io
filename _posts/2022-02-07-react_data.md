@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 2 React Data"
-categories: [React]
-tag: [codestates, React]
+categories: [codestates]
+tag: [React]
 toc: true
 ---
 

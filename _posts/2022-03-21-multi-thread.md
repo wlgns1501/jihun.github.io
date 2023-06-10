@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 3 Multi-Thread"
-categories: [Theory]
-tag: [codestates, Theory]
+categories: [codestates]
+tag: [Theory]
 toc: true
 ---
 

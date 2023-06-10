@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 3 Database Design"
-categories: [Database]
-tag: [codestates, Node/Database]
+categories: [codestates]
+tag: [Node/Database]
 toc: true
 ---
 

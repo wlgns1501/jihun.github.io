@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 3 Time Complexity"
-categories: [Algorithm]
-tag: [codestates, JS/Node, Algorithm]
+categories: [codestates]
+tag: [Algorithm]
 toc: true
 ---
 

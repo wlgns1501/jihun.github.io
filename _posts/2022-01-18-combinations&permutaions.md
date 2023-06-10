@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SEB Section 2 Combinations & Permutaions"
-categories: [Algorithm]
-tag: [codestates, Algorithm]
+categories: [codestates]
+tag: [Algorithm]
 toc: true
 ---
 
