@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[side-project 2] crawling"
+title: "[side-project 2] 크롤링"
 categories: sideproject
 tag: [Side-Project]
 toc: true
