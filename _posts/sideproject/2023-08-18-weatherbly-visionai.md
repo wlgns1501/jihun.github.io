@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[side-project 6] 구글 vision ai"
+title: "[weathervely 6] 구글 vision ai"
 categories: sideproject
-tag: [Side-Project]
+tag: [Side-Project, weathervely]
 toc: true
 ---
 

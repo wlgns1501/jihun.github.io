@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[side-project 1] side project 시작"
+title: "[weathervely 1] side project 시작"
 categories: sideproject
-tag: [Side-Project]
+tag: [Side-Project, weathervely]
 toc: true
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[side-project 5] 코디 크롤링"
+title: "[weathervely 5] 코디 크롤링"
 categories: sideproject
-tag: [Side-Project]
+tag: [Side-Project, weathervely]
 toc: true
 ---
 

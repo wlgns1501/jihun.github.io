@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[side-project 2] DB 설계"
+title: "[weathervely 2] DB 설계"
 categories: sideproject
-tag: [Side-Project]
+tag: [Side-Project, weathervely]
 toc: true
 ---
 

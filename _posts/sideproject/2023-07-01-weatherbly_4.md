@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[side-project 4] 온보딩 api 생성"
+title: "[weathervely 4] 온보딩 api 생성"
 categories: sideproject
-tag: [Side-Project]
+tag: [Side-Project, weathervely]
 toc: true
 ---
 

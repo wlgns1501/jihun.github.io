@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[side-project 7] 유저 체감온도 로직"
+title: "[weathervely 7] 유저 체감온도 로직"
 categories: sideproject
-tag: [Side-Project]
+tag: [Side-Project, weathervely]
 toc: true
 ---
 
